@@ -4,7 +4,7 @@ This iOS application displays characters from the Rick and Morty universe, allow
 
 ## Building and Running the Application
 
-1. Clone the repository to your local machine.
+1. Clone this repository to your local machine.
 2. Open the `RickAndMortyCharacters.xcodeproj` file in Xcode.
 3. Select your target device or simulator.
 4. Click the "Run" button or press `Cmd + R` to build and run the application.
@@ -24,21 +24,6 @@ This project includes unit tests, integration tests, and UI tests to ensure the 
 
 The test results will appear in the Test navigator and the Console in Xcode.
 
-### Test Coverage
-
-The tests cover various scenarios including:
-- Character list loading and filtering
-- Character details view model
-- API integration
-- Basic UI interactions and navigation
-
-To view test coverage:
-1. Run the tests as described above
-2. Go to the Report Navigator (Command + 9)
-3. Select the latest test run
-4. Click on the Coverage tab to see detailed coverage information
-
-
 ## Assumptions and Decisions
 
 1. **Color Coding**: The application uses color coding to represent the status of each character. Green indicates "Alive", red indicates "Dead", and gray is used for "Unknown" status.
@@ -47,8 +32,7 @@ To view test coverage:
 
 3. **Architecture**: The MVVM (Model-View-ViewModel) architecture was chosen for this project. This decision was made to improve testability and maintain a clear separation of concerns.
 
-4. **Combine Framework**: Apple's Combine framework was used for handling asynchronous events. This modern approach to handling data streams and asynchronous operations aligns well with SwiftUI and provides a robust foundation for future enhancements.
-
+4. **Combine Framework**: Apple's Combine framework was used for handling asynchronous events.
 
 ## Challenges and Solutions
 
@@ -66,7 +50,6 @@ To view test coverage:
 2. Add more detailed character information and possibly episode lists.
 3. Implement search functionality to find specific characters.
 4. Enhance UI/UX with animations and transitions.
-5. Add unit and UI tests for better code coverage.
 
 ## Feedback and Contributions
 
