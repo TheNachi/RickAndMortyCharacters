@@ -1,4 +1,4 @@
-# Rick and Morty Character Viewer
+# Rick and Morty Characters
 
 This iOS application displays characters from the Rick and Morty universe, allowing users to view character details and filter characters based on their status.
 
